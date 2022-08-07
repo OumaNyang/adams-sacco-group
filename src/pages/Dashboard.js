@@ -3,8 +3,8 @@ import React from "react";
 export default function Dashboard() {
   return (
     <div className="container mt-4 display-flex">
-    <div className="card card-bg-danger">
-      <div className="card-header bg-info">
+    <div className="card ">
+      <div className="card-header">
        <h4>ADAMS SACCO GROUP</h4>
       </div>
       <div className="card-body">
