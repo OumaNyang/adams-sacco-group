@@ -4,34 +4,30 @@ import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
 import * as IoIcons from "react-icons/io";
 
+export const appName = "ADAMS SACCO GROUP";
 export const SidebarData = [
   {
-    title: "Home",
-    path: "/",
+    title: "Dashboard",
+    path: "/dashboard",
     icon: <AiIcons.AiFillHome />,
     cName: "nav-text"
   },
+
   {
-    title: "Reports",
-    path: "/reports",
-    icon: <IoIcons.IoIosPaper />,
-    cName: "nav-text"
-  },
-  {
-    title: "Products",
-    path: "/products",
+    title: "Contributions",
+    path: "/contributions",
     icon: <FaIcons.FaCartPlus />,
     cName: "nav-text"
   },
   {
-    title: "Team",
-    path: "/team",
+    title: "Members",
+    path: "/members",
     icon: <IoIcons.IoMdPeople />,
     cName: "nav-text"
   },
   {
     title: "Messages",
-    path: "/",
+    path: "/messages",
     icon: <FaIcons.FaEnvelopeOpenText />,
     cName: "nav-text"
   },
@@ -39,6 +35,12 @@ export const SidebarData = [
     title: "Support",
     path: "/support",
     icon: <IoIcons.IoMdHelpCircle />,
+    cName: "nav-text"
+  },
+  {
+    title: "Login",
+    path: "/login",
+    icon: <FaIcons.FaLock />,
     cName: "nav-text"
   }
 ];

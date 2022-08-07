@@ -11,7 +11,7 @@ import { IconContext } from "react-icons";
 import { Link } from "react-router-dom";
 
 // DATA FILE
-import { SidebarData } from "./SlidebarData";
+import { appName,SidebarData } from "./SlidebarData";
 
 // STYLES
 import "./Navbar.css";
@@ -29,9 +29,11 @@ export default function Navbar() {
           <Link to="#" className="menu-bars">
             <FaIcons.FaBars onClick={showSidebar} />
           </Link>
+          
         </div>
         <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
           <ul className="nav-menu-items" onClick={showSidebar}>
+          <li style={{color:"yellow"}} > {appName}</li>
             <li className="navbar-toggle">
               <Link to="#" className="menu-bars">
                 <AiIcons.AiOutlineClose />
@@ -49,8 +51,10 @@ export default function Navbar() {
               );
             })}
           </ul>
+         
         </nav>
       </IconContext.Provider>
+      
     </>
   );
 }

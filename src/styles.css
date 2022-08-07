@@ -18,3 +18,12 @@ body {
   justify-content: center;
   font-size: 3rem;
 }
+
+.contentBody{
+  display: flex;
+  margin: top 50vh; ;
+  width: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
